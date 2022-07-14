@@ -1,7 +1,8 @@
-import { Text, useSx, View, H1, P, Row, A } from 'dripsy'
-import { TextLink } from 'solito/link'
-import { MotiLink } from 'solito/moti'
+import { Text, useSx, View, H1, P, Row, A } from 'dripsy';
+import { TextLink } from 'solito/link';
+import { MotiLink } from 'solito/moti';
 
+import LogoGeorga from 'app/images/logo-georga';
 import { Avatar, Button, Card, Title, Paragraph } from 'react-native-paper';
 
 const LeftContent = props => <Avatar.Icon {...props} icon="folder" />
@@ -14,6 +15,9 @@ export function HomeScreen() {
       <Card.Title title="Card Title" subtitle="Card Subtitle" left={LeftContent} />
       <Card.Content>
         <Title>Links</Title>
+        <Row>
+          <LogoGeorga color="#eceff1" width={100} />
+        </Row>
         <Row>
           <TextLink
             href="/user/fernando"

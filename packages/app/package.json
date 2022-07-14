@@ -3,13 +3,14 @@
   "name": "app",
   "main": "index.ts",
   "dependencies": {
+    "@fontsource/roboto": "^4.5.5",
     "@react-navigation/native": "^6.0.8",
     "@react-navigation/native-stack": "^6.5.0",
     "dripsy": "^3.6.0",
     "expo-linking": "^3.0.0",
     "moti": "canary",
-    "next-fonts": "^1.5.1",
-    "react-native-paper": "^4.12.1",
+    "react-native-paper": "5.0.0-rc.2",
+    "react-native-svg": "^12.3.0",
     "solito": "latest"
   },
   "sideEffects": false
